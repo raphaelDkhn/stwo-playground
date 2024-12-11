@@ -1,0 +1,9 @@
+[package]
+name = "stwo-playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stwo-prover = { git = "https://github.com/starkware-libs/stwo.git", rev = "e0d930e" }
+itertools = "0.12.0"
+num-traits = "0.2.17"
